@@ -9,3 +9,8 @@
 </body>
 </html>
 <?php include_once("home.html"); ?>
+<?php
+if($_POST["message"]) {
+    mail("lphan1989@gmail.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
