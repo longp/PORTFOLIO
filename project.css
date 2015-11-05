@@ -5,19 +5,18 @@ html,body
 }
 
 body 
-    { background-color: black;
+    { background-color: #FFC266;
       font-family: Lobster, sans-serif;
-      font-size: 12px;
+      font-size: 13px;
       color:white;
-      text-shadow: 1px 1px purple;
+      text-shadow:1px 1px  #18bc9c;
     }
 
 p 
 {
   color: white;
-  position: fixed;
-  top: 50%;
-  font-size: 1.5em;
+  text-shadow:1px 1px #18bc9c;
+  font-size: 1.25em;
 }
 
 @font-face {
@@ -39,6 +38,11 @@ a> img {
   height:40px;
   width:40px; 
 }
+
+.headtxt{
+  color:orange;
+}
+
 .btn-outline 
   {
     margin-top: 15px;
@@ -66,7 +70,7 @@ ul#navigation
     list-style: none;
     margin: 0;
     padding: 0;
-    border: 1px solid #ccc;
+    border: 1px solid #000;
     border-width: 1px 0;    
     text-align: center;
     font-size: 22px;
@@ -74,7 +78,9 @@ ul#navigation
     background-color: #FFF;
     position: fixed;   
     bottom: 0; 
-    width: 100%;  
+    width: 100%; 
+
+    
 }
 
 ul#navigation li {
@@ -83,27 +89,30 @@ ul#navigation li {
     list-style: none;
     margin: 0;
     padding: 0;
+    color:white;
 }
 ul#navigation li.last {
     margin-right: 0;
 }
 
-.links { position:fixed;
-    bottom:10px;
-    right:0px;}
+
+
+
+.links { text-shadow: 1px 1px black}
+
 
 
 
 
 .profilepic 
-      {height: 100px;
-      width: 100px;
+      {height: 150px;
+      width: 150px;
       border:5px solid white;
       border-radius: 10%;
       }
 
 
-
+/* not used anymore
 .box {
   background-color: #000000;
   color: #00CED1;
@@ -116,13 +125,13 @@ ul#navigation li.last {
   transition-property: background;
   transition-duration:1s;
   transition-timing-function:linear;}
-.logo {font-size: 4em;  
-        text-shadow: 2px 2px black;
+  */
+.logo {font-size: 3em;  
+        text-shadow: 2px 2px #18bc9c;
         color:white;}
-.box:hover {
 
-background: #FFFFFF;}
 
+ 
 
 .hvr-bounce-in {
   display: inline-block;
@@ -157,6 +166,19 @@ background: #FFFFFF;}
     left: 0;
     text-align: center;
     margin: auto;
+    color:white;
+}
+
+.navbar-fixed-top .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        color: white;
+    }
+.navbar a:focus {
+    outline: 0;
+    color: white;
 }
 
 
@@ -192,7 +214,7 @@ hr.star-light:after {
 }
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #4DDBFF;
 }
 footer .footer-above {
     margin: 10px;
@@ -201,12 +223,36 @@ footer .footer-above {
 
 footer .footer-col {
     margin-bottom: 10px;
+
 }
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: orange;
 }
 div .well {
-  background-color: #2c3e50
+  background-color: #2c3e50;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #18bc9c;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    color: #000;
+    background: #18bc9c;
+}
+.well {
+  background-color: orange;
+  text-shadow:1px 1px #18bc9c;
+  color: white;
+
 }
