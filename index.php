@@ -1,18 +1,4 @@
-<?php?>
-<html>
-<head>
-<title>Long Phan</title>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
-</head>
-<body>
-</body>
-</html>
-<?php include_once("home.html"); ?>
-
-
 <?php
-
 if(empty($_POST['name'])  		||
    empty($_POST['email']) 		||
    empty($_POST['phone']) 		||
@@ -36,3 +22,17 @@ $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;			
 ?>
+
+<?php?>
+<html>
+<head>
+<title>Long Phan</title>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel='stylesheet' type='text/css' href='//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+<body>
+</body>
+</html>
+<?php include_once("home.html"); ?>
+
+
