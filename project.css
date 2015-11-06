@@ -19,6 +19,9 @@ p
   font-size: 1.25em;
 }
 
+p > a {
+
+}
 @font-face {
   font-family: Lobster;
   font-style: normal;
@@ -45,7 +48,19 @@ a> img {
 
 .btn-outline 
   {
+
     margin-top: 15px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+ .homebtn-outline 
+  {
+    position:fixed;
+    margin-top: 15px;
+    left:0;
     border: solid 2px #fff;
     font-size: 20px;
     color: #fff;
