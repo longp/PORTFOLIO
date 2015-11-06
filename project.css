@@ -2,6 +2,7 @@
 html,body
 {
   height:100%;
+  width:100%;
 }
 
 iframe {border: 5px solid white;
@@ -272,3 +273,4 @@ header {
   color: white;
 
 }
+
