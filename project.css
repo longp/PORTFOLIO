@@ -4,8 +4,9 @@ html,body
   height:100%;
 }
 
-iframe {border: 2px solid white;
-  border-radius: 10px}
+iframe {border: 5px solid white;
+  border-radius: 10px;
+}
 body 
     { background-color: #FFC266;
       font-family: Lobster, sans-serif;
