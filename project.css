@@ -102,13 +102,12 @@ ul#navigation li.last {
 
 
 
-
-
-.profilepic 
+.profilepic
       {height: 150px;
       width: 150px;
       border:5px solid white;
       border-radius: 10%;
+      
       }
 
 
