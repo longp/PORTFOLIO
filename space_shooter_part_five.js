@@ -761,8 +761,8 @@ function Game() {
 			this.backgroundAudio.load();
 
 			this.gameOverAudio = new Audio("sounds/game_over.wav");
-			this.gameOverAudio.loop = true;
-			this.gameOverAudio.volume = .25;
+			this.gameOverAudio.loop = false;
+			this.gameOverAudio.volume = 0;
 			this.gameOverAudio.load();
 
 			this.checkAudio = window.setInterval(function(){checkReadyState()},1000);
