@@ -27,7 +27,7 @@ p
 {
   color: white;
   text-shadow:1px 1px #18bc9c;
-  font-size: 1.25em;
+  font-size: 2em;
 }
 
 
@@ -139,7 +139,7 @@ ul#navigation li.last {
 
 
 
-.logo {font-size: 3em;  
+.logo {font-size: 4em;  
         text-shadow: 2px 2px #18bc9c;
         color:white;}
 
