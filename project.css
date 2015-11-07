@@ -10,7 +10,7 @@ html,body
   width: 560px; 
   height: 315px;
 }
-
+article {margin-top: -100px;}
 iframe{
   border: 0px solid white;
 }
@@ -274,8 +274,8 @@ header {
 }
 
 .gameframe {
-  height: 690px;
-  width: 560px;
+  height: 700px;
+  width: 600px;
 }
 
 
