@@ -146,7 +146,7 @@ ul#navigation li.last {
 
  #gameintro {
   font-weight: bold;
-  color: purple;
+  color: blueviolet;
   text-shadow: 1px 1px white;
  }
 
@@ -197,7 +197,6 @@ ul#navigation li.last {
     outline: 0;
     color: white;
 }
-
 
 
 hr.star-light,
