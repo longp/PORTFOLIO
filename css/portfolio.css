@@ -32,8 +32,24 @@
   background-color: #667f99;
   color: white;
 }
-/*social link btns*/
+/*social icons*/
 
+.fa {
+  width:2em;
+  height:1.25em;
+  border: solid 2px #fff;
+  border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.fa:hover{
+  border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
 
 
 

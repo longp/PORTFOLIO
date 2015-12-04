@@ -17,7 +17,7 @@
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="col-md-12">
           <div class="navbar-header">
-            <a class="navbar-brand btn" data-toggle="modal" data-target="#signup" href="#">Long Phan</a>
+            <a class="navbar-brand btn hvr-reveal" data-toggle="modal" data-target="#signup" >Long Phan</a>
           </div>
           <ul class="nav navbar-nav navbar-right">
             
@@ -58,6 +58,7 @@
             <input type="text" id="userName" class="form-control input-sm chat-input" placeholder="username" />
             </br>
             <input type="text" id="userPassword" class="form-control input-sm chat-input" placeholder="password" />
+            
         </div>
       </div>
       <div class="modal-footer">
@@ -118,10 +119,40 @@
   </div>
 </div>
 
+<!-- Blog Modal -->
+<div class="modal fade bs-example-modal-lg" id="blogModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+    <div class="jumbotron">
+    <h2 class="text-center">Blog</h2>
+    <hr class="star-light">
+    <p>   Sup~ This is Mark "Smelly" Bell. He is a youtube personality that I frequently watch. He is an inspirational powerlifter and role model. Here is a speech he gave at Barbell Brigade.</p>
+                <br>
+                <br>
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8">
+      <div class="embed-responsive embed-responsive-16by9">
+     <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/pMLTt1ZE6Tc"></iframe>
+    </div>           
+    </div>
+  </div> 
+  <div class="row text-center">
+</div>
+ </div> 
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
 
   <!--About me section-->
   <hr id="about">
   <div class="jumbotron">
+  <div class="col-md-offset-1 col-md-10">
     <h2 class="text-center"> About Me </h2>
     <hr class="star-light">
     <p>
@@ -132,10 +163,12 @@
     My hobbies include gaming, cooking and going to the gym. I love to try new cuisine and foods from different cultures also I am hoping to compete in powerlifting competitions soon!  
     </p>
   </div>
+  </div>
 
   <!--blog-->
   <hr id="blog">
   <div class="jumbotron">
+  <div class="col-md-offset-1 col-md-10">
     <h2 class="text-center">Blog</h2>
     <hr class="star-light">
     <p>   Sup~ This is Mark "Smelly" Bell. He is a youtube personality that I frequently watch. He is an inspirational powerlifter and role model. Here is a speech he gave at Barbell Brigade.</p>
@@ -148,89 +181,32 @@
     </div>           
     </div>
   </div> 
-  
- <div class="container text-center">
-
-<h1> Click Me </h1>
-<!-- Large modal -->
-<button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Large modal</button>
-
-<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-  
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-     <img class="img-responsive" src="http://placehold.it/1200x600/555/000&text=One" alt="...">
-      <div class="carousel-caption">
-        <div class="jumbotron">
-    <h2 class="text-center">Blog</h2>
-    <hr class="star-light">
-    <p>   Sup~ This is Mark "Smelly" Bell. He is a youtube personality that I frequently watch. He is an inspirational powerlifter and role model. Here is a speech he gave at Barbell Brigade.</p>
-                <br>
-                <br>
-  <div class="row">
-    <div class="col-md-offset-2 col-md-8">
-      <div class="embed-responsive embed-responsive-16by9">
-     <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/pMLTt1ZE6Tc"></iframe>
-    </div>           
-    </div>
-  </div>
-  </div> 
-      </div>
-    </div>
-    <div class="item">
-      <img class="img-responsive" src="http://placehold.it/1200x600/fffccc/000&text=Two" alt="...">
-      <div class="carousel-caption">
-        Another Image
-      </div>
-    </div>
-     <div class="item">
-      <img class="img-responsive" src="http://placehold.it/1200x600/fcf00c/000&text=Three" alt="...">
-      <div class="carousel-caption">
-        Another Image
-      </div>
-    </div>
-  </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
+  <div class="row text-center">
+  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#blogModal">Large modal</button>
 </div>
-    </div>
-  </div>
+ </div> 
 </div>
-</div>
-
-      
-  </div>
 
     <hr id="portfolio">
   <!--portfolio section-->
   <div class="jumbotron">
-  <div class="row">
+  
     <h2 class="text-center portfolio"> Portfolio </h2>
-    <hr class="star-light ">
+    
+    <div class="row">
     <div class="col-md-3 ">
       
       <img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xpa1/t51.2885-15/s480x480/e35/12120230_1660914670849910_809073269_n.jpg">
       
     
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 ">
       
       <img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s480x480/e35/10899184_1094440900627191_1417572849_n.jpg">
       
     </div>
-    <div class="col-md-3">
+    <div class="col-md-3 ">
+   
       
       <img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s640x640/sh0.08/e35/11917909_779213922189436_1742703322_n.jpg">
       
@@ -240,10 +216,14 @@
       <img class="img-responsive" src="https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-15/s640x640/sh0.08/e35/11917909_779213922189436_1742703322_n.jpg">
       
     </div>
+    
   </div>
   </div>
 
+  
 
+
+<!-- footer -->
   <div class="well">
     <div class="row"><h2 class="text-center">Long Phan</h2></div>
     <div class="row">
