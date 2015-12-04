@@ -1,6 +1,22 @@
+body {
+  /*background-color: #74AFAD;*/
+  } 
+
+p>a,
+p>a:hover{
+  color: yellow;
+}
+img.center-block{
+  width: 60%;
+}
+
 /* div sections */
 .jumbotron {
   min-height: 650px;
+  background-color: lightseagreen;
+  color: whitesmoke;
+  font-size: 1.2em;
+  font-style: bold;
 }
 
 /*navbar*/
@@ -56,6 +72,7 @@
 }
 
 
+/*profile pic hover*/
 
 
 /* star light emblem*/
@@ -82,7 +99,7 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #000000;
+    border-color: #667f99;
 }
 
 hr.star-light:after {
