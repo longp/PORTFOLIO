@@ -1,0 +1,329 @@
+
+html,body
+{
+  height:100%;
+ 
+  width:100%;
+}
+
+.youtubeframe{border: 5px solid white;
+  border-radius: 10px;
+  width: 560px; 
+  height: 315px;
+}
+article {margin-top: -100px;}
+iframe{
+  border: 0px solid white;
+}
+body 
+    { background-color: #FFC266;
+      font-family: Lobster, sans-serif;
+      font-size: 13px;
+      color:white;
+      text-shadow:1px 1px  #18bc9c;
+    }
+
+p 
+{
+  color: white;
+  text-shadow:1px 1px #18bc9c;
+  font-size: 2em;
+}
+
+
+p > a {
+
+}
+@font-face {
+  font-family: Lobster;
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lobster'), local('Lobster-Regular'), url(http://fonts.gstatic.com/s/lobster/v15/MeFZ5NpSE1j8mC06Jh1miFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+span> a 
+{
+  font-size: 4em;
+
+}
+
+a> img {
+  height:40px;
+  width:40px; 
+}
+ .mright {
+  margin-right: -15px;
+}
+
+
+.headtxt{
+  color:orange;
+}
+ 
+.navlink  {color: white;
+font-size: 20px;
+
+}
+
+.btn-outline 
+  {
+
+   
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+ 
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active 
+{
+    border: solid 2px #fff;
+    color: #18bc9c;
+    background: #fff;
+}
+
+ 
+
+ul#navigation 
+{
+    height: 70px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #000;
+    border-width: 1px 0;    
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Cham-WebFont', Arial, sans-serif;
+    background-color: #FFF;
+    position: fixed;   
+    bottom: 0; 
+    width: 100%; 
+
+    
+}
+
+ul#navigation li {
+    display: inline;
+    margin-right: .75em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+ul#navigation li.last {
+    margin-right: 0;
+}
+
+
+
+.links { text-shadow: 1px 1px black}
+
+
+
+.profilepic
+      {height: 75px;
+      width: 75px;
+      border:1px solid white;
+      border-radius: 55%;
+      
+      }
+
+
+
+.logo {font-size: 4em;  
+        text-shadow: 2px 2px #18bc9c;
+        color:white;}
+
+
+ #gameintro {
+  font-weight: bold;
+  color: #00003F;
+  text-shadow: 1px 1px aqua;
+  font-size: 1.5em;
+ }
+
+.hvr-bounce-in {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.connect {
+  font-weight: bold;
+  font-size: 1.1em;
+  position: fixed;
+  right: .5%;
+  bottom: 10%}
+
+
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    color:white;
+}
+
+.navbar-fixed-top .navbar-brand  {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+        color: white;
+        top: 0px;
+    }
+.navbar a:focus {
+    outline: 0;
+    color: white;
+}
+
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #000000;
+}
+
+hr.star-light:after {
+    color: #FFFFFF;
+    background-color: #18bc9c;
+}
+
+hr.star-light2,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light2:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light2 {
+    border-color: white;
+}
+
+hr.star-light2:after {
+    color: #FFFFFF;
+    background-color: purple;
+}
+
+div.success {
+    color: #fff;
+    background: #4DDBFF;
+    margin-top: 450px;
+    height:  100%;}
+
+footer .footer-above {
+    margin: 10px;
+    background-color: #2c3e50;
+}
+
+footer .footer-col {
+    margin-bottom: 10px;
+
+}
+
+footer .footer-below {
+    padding: 25px 0;
+    background-color: orange;
+}
+
+
+div .well {
+  background-color: #2c3e50;
+  
+  margin-bottom: 100px;
+ 
+
+}
+
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: #18bc9c;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    color: #000;
+    background: #18bc9c;
+
+
+}
+.well {
+  background-color: orange;
+  text-shadow:1px 1px #18bc9c;
+  color: white;
+
+}
+
+.gameframe {
+  height: 700px;
+  width: 600px;
+}
+
+
+canvas{
+  position: relative;
+  left: 20%;
+}

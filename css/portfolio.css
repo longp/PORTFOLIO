@@ -1,0 +1,72 @@
+/* div sections */
+.jumbotron {
+  min-height: 650px;
+}
+
+/*navbar*/
+.navbar,
+.navbar-brand,
+.navbar-default,
+.navbar-nav >li >a {
+  background-color: #667f99;
+  color: white !important;
+}
+
+
+
+/*blog*/
+
+
+
+
+
+
+/*portfolio*/
+.portfolio {
+  margin-top: 25px;
+}
+
+
+/*footer*/
+.well {
+  background-color: #667f99;
+  color: white;
+}
+/*social link btns*/
+
+
+
+
+
+/* star light emblem*/
+
+hr.star-light,
+hr.star-primary {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 100%;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star-light {
+    border-color: #000000;
+}
+
+hr.star-light:after {
+    color: #FFFFFF;
+    background-color: #18bc9c;
+}
+
