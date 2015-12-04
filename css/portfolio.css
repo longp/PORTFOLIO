@@ -15,7 +15,10 @@
 
 
 /*blog*/
-
+#blog-posts {
+  position: relative;
+  bottom: -20px;
+}
 
 
 
@@ -25,6 +28,7 @@
 .portfolio {
   margin-top: 25px;
 }
+
 
 
 /*footer*/
