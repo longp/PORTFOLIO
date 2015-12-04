@@ -1,5 +1,4 @@
 body {
-  /*background-color: #74AFAD;*/
   } 
 
 p>a,
@@ -15,18 +14,25 @@ img.center-block{
   min-height: 650px;
   background-color: lightseagreen;
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-style: bold;
+  text-shadow:1px 1px silver;
 }
 
 /*navbar*/
 .navbar,
 .navbar-brand,
-.navbar-default,
-.navbar-nav >li >a {
+.navbar-default .navbar-nav >li >a {
   background-color: #667f99;
-  color: white !important;
+  color: whitesmoke !important;
+  font-size: 1.15em;
 }
+.navbar-default .navbar-brand {
+  color:whitesmoke;
+}
+
+
+
 
 
 
@@ -99,11 +105,12 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #667f99;
+    border-color: salmon;
 }
 
 hr.star-light:after {
     color: #FFFFFF;
-    background-color: #18bc9c;
+    background-color: salmon;
+    border-radius: 10px;
 }
 
