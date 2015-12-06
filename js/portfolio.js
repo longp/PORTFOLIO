@@ -5,8 +5,14 @@ $(".jumbotron").hide();
 
 
 
+
 // scrolling to section on click btn
-$("a[href='#top']").click(function() { $("html, body").animate({ scrollTop: 0 }, "slow"); return false; });
+$("a[href='#top']").click(function() { 
+  $('.jumbotron').fadeOut('slow', function(){
+  $("html, body").animate({ scrollTop: 0 }, "fast"); return false; });
+
+});
+
 $('a[href$="portfolio"]').click(function() {
      $('html, body').animate({
          scrollTop: $("#portfolio").offset().top   }, 500);
@@ -29,10 +35,6 @@ $(window).scroll(function () {
 
 });
  
-
-
-
-
 });
 
 
@@ -44,7 +46,7 @@ $(".jumbotron").show();
 
 } 
 function showVid() {
-  $("#bgvid").css("z-index","20");
+  $("#bgvid").css("z-index","100");
 
 
   

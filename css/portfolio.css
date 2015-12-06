@@ -10,7 +10,7 @@ img.center-block{
 }
 
 i {
-  
+
 }
 hr#about,
 hr#blog,
@@ -73,6 +73,10 @@ video#bgvid {
    
     background-size: cover; 
 }
+
+
+
+
 
 /*blog*/
 #blog-posts {
