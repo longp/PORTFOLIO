@@ -8,24 +8,44 @@ p>a:hover{
 img.center-block{
   width: 60%;
 }
+hr#about,
+hr#blog,
+hr#portfolio
+ {
+clear: both;
+visibility: hidden;
+margin-top: 200px;
 
+}
 /* div sections */
 .jumbotron {
-  min-height: 650px;
+  min-height: 600px;
   background-color: lightseagreen;
   color: whitesmoke;
   font-size: 1.3em;
   font-style: bold;
   text-shadow:1px 1px silver;
+  
 }
 
+
+
+
 /*navbar*/
+
+.navbar-brand,
+.navbar-default .navbar-nav >li >a {
+
+ /*background: #e0ffc7 url(../images/hexa.gif) center; */
+}
 .navbar,
 .navbar-brand,
 .navbar-default .navbar-nav >li >a {
   background-color: #667f99;
   color: whitesmoke !important;
   font-size: 1.15em;
+  
+  cursor: pointer; cursor: hand;
 }
 .navbar-default .navbar-brand {
   color:whitesmoke;
@@ -34,7 +54,21 @@ img.center-block{
 
 
 
-
+/*video*/
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover; 
+}
 
 /*blog*/
 #blog-posts {
@@ -55,7 +89,7 @@ img.center-block{
 
 /*footer*/
 .well {
-  background-color: #667f99;
+  background-color: salmon;
   color: white;
 }
 /*social icons*/

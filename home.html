@@ -11,7 +11,21 @@
 <link rel="stylesheet" type="text/css" href="css/hover.css">
 </head>
 <body>
+
+
+<!-- background video -->
+ <video autoplay loop poster="polina.jpg" id="bgvid">
+    <source src="polina.webm" type="video/webm">
+    <source src="images/hexa.mp4" type="video/mp4">
+</video>
+<!-- background video -->
+
+
+
+
+
 <div class="container-fluid">
+<!-- navbar -->
   <div class="row well">
     <div class="col-md-12">
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -26,13 +40,13 @@
               About Me</a>
             </li>
             <li>
-              <a href="#blog" class="hvr-pulse hvr-underline-from-center">Blog</a>
+              <a href="#blog" class=" hvr-pulse hvr-underline-from-center">My Blog</a>
             </li>
             <li>
               <a href="#portfolio" class="hvr-pulse hvr-underline-from-center">Portfolio</a>
             </li>
             <li>
-              <a   class="hvr-pulse btn hvr-underline-from-center" data-toggle="modal" data-target="#contactModal">
+              <a   class="hvr-pulse hvr-underline-from-center" data-toggle="modal" data-target="#contactModal">
                 Contact Me
               </a>
             </li>
@@ -41,8 +55,7 @@
       </nav>
     </div>
   </div>
-
- 
+ <!-- navbar -->
 
 <!--signup Modal -->
 <div class="modal fade" id="signup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -145,16 +158,14 @@
 
 <!-- blog post -->
     <div class="jumbotron">
-    <h2 class="text-center">Blog</h2>
+    <h2 class="text-center">Code Camp!</h2>
     <hr class="star-light">
-    <p>   Sup~ This is Mark "Smelly" Bell. He is a youtube personality that I frequently watch. He is an inspirational powerlifter and role model. Here is a speech he gave at Barbell Brigade.</p>
+    <p>  In my free time I have been doing the <a href="https//freecodecamp.com">freecodecamp.com</a> excercises. My goal is to finish the easy bonfire challenges and the front end project at the end of this month. Here are some of my <a href="http://www.freecodecamp.com/goooey">solutions</a> for the novice bonfire challenges.  </p>
                 <br>
                 <br>
   <div class="row">
     <div class="col-md-offset-2 col-md-8">
-      <div class="embed-responsive embed-responsive-16by9">
-     <iframe class=" embed-responsive-item" src="https://www.youtube.com/embed/pMLTt1ZE6Tc"></iframe>
-    </div>           
+      <img src="https://s3.amazonaws.com/freecodecamp/wide-social-banner.png" class="img-responsive">       
     </div>
   </div> 
   <div class="row text-center">
@@ -171,32 +182,30 @@
 
 
 
-  <!--About me section-->
+
+  <!-- About me section -->
   <hr id="about">
     <div class="jumbotron">
-    <div class="row"><div class="col-md-4 col-md-offset-4">
-            <img id="profile-img" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpl1/t31.0-8/10497466_10202618521169037_7714605377856483739_o.jpg" class="img-responsive img-thumbnail center-block">
-            </div></div>
 
         <div class="col-md-offset-1 col-md-10">
             <h2 class="text-center">About Me</h2>
 
             <hr class="star-light">
-            <!-- start of profile pic -->
+           
             <p>Aspiring Web Developer based in NJ. Currently enrolled in
             Rutgers Coding Bootcamp(April 2016 finish date). Hoping to find a
             junior software/web development position.</p><br>
             <p>My hobbies include pc gaming and going to the gym.  I am planning
             to compete in powerlifting competitions in the future!</p>
             <br>
-            <p>Competences:
+            <p>
               Languages and Frameworks:
               Javascript, HTML5, CSS3, jQuery, Bootstrap3
             </p>
         </div>
         
     </div>
-  <!-- end of about me -->
+  <!-- end of about me
 
   <!--blog-->
   <hr id="blog">
