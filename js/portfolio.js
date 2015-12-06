@@ -6,6 +6,7 @@ $(".jumbotron").hide();
 
 
 // scrolling to section on click btn
+$("a[href='#top']").click(function() { $("html, body").animate({ scrollTop: 0 }, "slow"); return false; });
 $('a[href$="portfolio"]').click(function() {
      $('html, body').animate({
          scrollTop: $("#portfolio").offset().top   }, 500);
@@ -24,6 +25,8 @@ $('a[href$="about"]').click(function() {
 $(window).scroll(function () {
     hideVid();
     if($(document).scrollTop() == 0) showVid();
+
+
 });
  
 
@@ -37,6 +40,7 @@ $(window).scroll(function () {
 function hideVid() {
 $("#bgvid").css("z-index","-100");
 $(".jumbotron").show();
+
 
 } 
 function showVid() {
