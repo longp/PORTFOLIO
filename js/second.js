@@ -4,18 +4,17 @@ $(document).on( "click", "a", function(e){
   });
 
 
-  $(document).on( "click", "a", function(e){
+  $(document).on( "click", ".leftlink", function(e){
     e.preventDefault();
-  
-    $.ajax ({
+    var repoCommits = $(this).attr("href") + "/commits";
+    $.ajax ({      
       type: "GET",
-      url: $(this).attr("href") + "/commits",
+      url: repoCommits,
       success: function(commits) {
         for (var i =0;i<commits.length; i++)
-
-        $("tbody").append
-      (buildTable(showCommits
-        (commits[i], commits[i])));
+        var newLink = buildTable(showCommits(commits[i]));
+        console.log(newLink);
+        $("tbody").append(newLink);
       }
 
     });
@@ -33,11 +32,16 @@ return newRow;
 }
 
 function showCommits (commits) {
-debugger;
+// debugger;
 var commitsMsg =commits.commit.message;
+console.log(commitsMsg);
 var commitsUrl =commits.html_url;
-var commitsLink = $("<a>").attr("href", commitsUrl)
-return commitsMsg;
+console.log(commitsUrl);
+commitsUrl = 'https://crossorigin.me/'+commitsUrl
+var commitsLink = $("<a>").attr("href", commitsUrl).html(commitsMsg);
+console.log(commitsLink);
+// return commitsMsg;
+// console.log(commitsUrl);
 return commitsLink;
 }
 
