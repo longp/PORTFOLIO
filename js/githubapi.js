@@ -25,9 +25,9 @@ function buildRepoUrl(reposData) {
 function buildRepo(reposData) {
   
   var repoUrl = "https://api.github.com/repos/longp/" + reposData.name;
-  var newlink = $("<a>").addClass("leftlink")
+  var newlink = $("<a>")
   .prop("href", repoUrl)
-  .addClass("list-group-item btn")
+  .addClass("list-group-item btn leftlink")
   .append(repoUrl) 
   return newlink;
     
