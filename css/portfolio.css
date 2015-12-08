@@ -18,7 +18,7 @@ hr#portfolio
  {
 clear: both;
 visibility: hidden;
-margin-top: 200px;
+margin-top: 250px;
 
 }
 /* div sections */
@@ -33,7 +33,21 @@ margin-top: 200px;
 }
 
 
-
+/*beginning screen*/
+div.begin>table {
+  font-size: 2em;
+  color: whitesmoke;
+}
+.desc{
+  font-size: .5em;
+}
+.begin-row{
+  margin-top: 150px;
+}
+.begin-description {
+  margin-top: 15px;
+  margin-bottom: 300px;
+}
 
 /*navbar*/
 
@@ -67,7 +81,7 @@ video#bgvid {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: 1;
+    z-index: -11;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
    
