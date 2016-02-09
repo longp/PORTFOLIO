@@ -15,11 +15,7 @@ $.ajax ({
 
 });
 
-
-function buildRepoUrl(reposData) {
-
- var repoUrl = "https://api.github.com/repos/longp/" + reposData.name;
- buildCommitUrl(reposData);
+Url(reposData);
 }
 
 function buildRepo(reposData) {
@@ -28,7 +24,7 @@ function buildRepo(reposData) {
   var newlink = $("<a>")
   .prop("href", repoUrl)
   .addClass("list-group-item btn leftlink")
-  .append(repoUrl) 
+  .append(repoUrl) ;
   return newlink;
     
     }

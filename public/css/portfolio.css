@@ -1,5 +1,6 @@
 body {
-  background-image: url(http://i.imgur.com/UZKEjzG.png)
+  background-image: url(http://i.imgur.com/UZKEjzG.png);
+  z-index: -25
   } 
 
 p>a,
@@ -33,7 +34,9 @@ margin-top: 250px;
   
 }
 
-
+#login_button {
+  background-color: coral;
+}
 /*beginning screen*/
 div.begin>table {
   font-size: 2em;
@@ -60,7 +63,7 @@ div.begin>table {
 .navbar,
 .navbar-brand,
 .navbar-default .navbar-nav >li >a {
-  background-color: #667f99;
+  background-color: coral;
   color: whitesmoke !important;
   font-size: 1.15em;
   
