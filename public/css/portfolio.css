@@ -1,4 +1,5 @@
 body {
+  background-image: url(http://i.imgur.com/UZKEjzG.png)
   } 
 
 p>a,
@@ -68,28 +69,6 @@ div.begin>table {
 .navbar-default .navbar-brand {
   color:whitesmoke;
 }
-
-
-
-
-/*video*/
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -11;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-   
-    background-size: cover; 
-}
-
-
-
 
 
 /*blog*/

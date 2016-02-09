@@ -1,8 +1,26 @@
 var express = require("express");
 
 var app = express();
-var PORT = PORT 8080 || process.env.PORT;
+var PORT =  process.env.PORT || 8080;
 
 
-app.use("/js", expresss.static("public/js"));
-app.use("/css", expresss.static("public/css"));
+app.use("/js", express.static("public/js"));
+app.use("/css", express.static("public/css"));
+
+app.get("/", function (req, res) {
+  res.sendFile(process.cwd() + "/views/home.html")
+
+});
+
+app.get("/portfolio/:projectName", function (req ,res) {
+  var stringPath = "/views/" + req.params.projectName;
+  res.sendFile(process.cwd() + stringPath);
+  console.log(req.params.projectName);
+  console.log (stringPath);
+  console.log (process.cwd() + stringPath);
+})
+
+
+app.listen(PORT, function () {
+  console.log("Listen on port %s", PORT);
+})
