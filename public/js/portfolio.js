@@ -1,18 +1,8 @@
-
+$(window).load(function() {
+$('body').addClass('bg1');
+});
 
 $(document).ready(function(){
-
-var bkgrdOne = "url(http://i.imgur.com/NNoFNWf.png)";
-var bkgrdTwo ="url(http://i.imgur.com/VW2DYbL.png)";
-var bkgrdThree ="url('http://i.imgur.com/UZKEjzG.png')";
-var bkgrdFour ="url('http://i.imgur.com/6EhAM7G.png')";
-var bkgrdFive ="url('http://i.imgur.com/QOfZ5r8.png')";
-var bkgrdSix ="url('http://i.imgur.com/Y4BHWJM.png')";
-var bkgrdSeven ="url('http://i.imgur.com/laSSeYN.png')";
-var bkgrdEight ="url('http://i.imgur.com/HaYuGQi.png')";
-
-
-backgroundArray = [bkgrdOne, bkgrdTwo, bkgrdThree, bkgrdFour, bkgrdFive, bkgrdSix, bkgrdSeven, bkgrdEight];
 
 $("a[href='#top']").click(function() { 
   
@@ -34,16 +24,66 @@ $('a[href$="about"]').click(function() {
          scrollTop: $("#about").offset().top   }, 500);
  });
 
-$("div").addClass(".bg6");
-// $("body").css("background-image", "url(http://i.imgur.com/VW2DYbL.png)");
+changeBackground();
+});
 
+
+// switches background images of body
+function changeBackground () {
+	setInterval(function() {
+		var $body = $('body');
+		if ($body.hasClass("bg1")) {
+			switchBackground("bg1", "bg2");
+		}
+		else if ($body.hasClass("bg2")) {
+			switchBackground("bg2", "bg3");
+		}
+		else if ($body.hasClass("bg3")) {
+			switchBackground("bg3", "bg4");
+		}
+		else if ($body.hasClass("bg4")) {
+			switchBackground("bg4", "bg5");
+		}
+		else if ($body.hasClass("bg5")) {
+			switchBackground("bg5", "bg6");
+		}
+		else if ($body.hasClass("bg6")) {
+			switchBackground("bg6", "bg7");
+		}
+		else if ($body.hasClass("bg7")) {
+			switchBackground("bg7", "bg8");
+		}
+		else if ($body.hasClass("bg8")) {
+			switchBackground("bg8", "bg1");
+		}
+	}, 5000);
 }
 
-function backgroundGif (img) {
-  $('body').css("background-image", img);
+
+function switchBackground (firstBG, secondBG) {
+	var $body = $('body');
+	$body.removeClass(firstBG);
+  $body.addClass(secondBG);
+    
 }
 
+// trying to make promise
+function myfunction () {
+	promise = first().then(second).then(third);	
+}
 
-
-
-
+function first () {
+	d = new $.Deferred();
+	switchBackground("bg1", "bg2");
+	return d.promise()
+}
+function second () {
+	d = new $.Deferred();
+	switchBackground("bg2", "bg3");
+	return d.promise()
+}
+function third () {
+	d = new $.Deferred();
+	switchBackground("bg3", "bg1");
+	return d.promise()
+}

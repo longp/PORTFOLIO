@@ -1,5 +1,5 @@
 body {
-
+   transition: background 3s linear;
   } 
 
 p>a,
@@ -153,26 +153,28 @@ hr.star-light:after {
 
 
 .bg1 {
-    background: url(http://i.imgur.com/NNoFNWf.png);
+
+  background-image: url(http://i.imgur.com/NNoFNWf.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/VW2DYbL.png);
+
+.bg2 {
+  background-image: url(http://i.imgur.com/VW2DYbL.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/UZKEjzG.png);
+.bg3 {
+  background-image: url(http://i.imgur.com/UZKEjzG.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/6EhAM7G.png);
+.bg4 {
+  background-image: url(http://i.imgur.com/6EhAM7G.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/QOfZ5r8.png);
+.bg5 {
+  background-image: url(http://i.imgur.com/QOfZ5r8.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/Y4BHWJM.png);
+.bg6 {
+  background-image: url(http://i.imgur.com/Y4BHWJM.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/laSSeYN.png);
+.bg7 {
+  background-image: url(http://i.imgur.com/laSSeYN.png);
 }
-.bg1 {
-    background: url(http://i.imgur.com/HaYuGQi.png);
+.bg8 {
+  background-image: url(http://i.imgur.com/HaYuGQi.png);
 }
