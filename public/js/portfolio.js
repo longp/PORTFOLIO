@@ -1,5 +1,19 @@
 $(window).load(function() {
 $('body').addClass('bg1');
+$.preloadImages = function() {
+  for (var i = 0; i < arguments.length; i++) {
+    $("<img />").attr("src", arguments[i]);
+  }
+}
+
+$.preloadImages("http://i.imgur.com/NNoFNWf.png",
+  "http://i.imgur.com/VW2DYbL.png",
+  "http://i.imgur.com/UZKEjzG.png",
+  "http://i.imgur.com/6EhAM7G.png",
+  "http://i.imgur.com/QOfZ5r8.png",
+  "http://i.imgur.com/Y4BHWJM.png",
+  "http://i.imgur.com/laSSeYN.png",
+  "http://i.imgur.com/HaYuGQi.png");
 });
 
 $(document).ready(function(){
