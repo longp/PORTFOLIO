@@ -8,7 +8,8 @@ app.use(
   {
     secret: 'my secret',
     cookie: {maxAge: 100000},
-    saveUninitialized: true
+    saveUninitialized: true,
+    resave: false
   }));
 
 app.use("/js", express.static("public/js"));
@@ -19,7 +20,7 @@ app.get("/", function (req, res) {
 });
 
 // must ask why "/portfolio/:projectName does not load JS AND CSS files to it"
-app.get("/:projectName", function (req ,res) {
+app.get("/portfolio/:projectName", function (req ,res) {
   var stringPath = "/views/" + req.params.projectName;
   res.sendFile(process.cwd() + stringPath);
   console.log(stringPath);

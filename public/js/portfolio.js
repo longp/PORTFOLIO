@@ -1,13 +1,19 @@
+
+
 $(document).ready(function(){
-// $(".jumbotron").hide();
-//  $(".begin") .css("z-index","200")
 
-// $(window).on('beforeunload', function() {
-//     $(window).scrollTop(0); 
-// });
+var bkgrdOne = "url(http://i.imgur.com/NNoFNWf.png)";
+var bkgrdTwo ="url(http://i.imgur.com/VW2DYbL.png)";
+var bkgrdThree ="url('http://i.imgur.com/UZKEjzG.png')";
+var bkgrdFour ="url('http://i.imgur.com/6EhAM7G.png')";
+var bkgrdFive ="url('http://i.imgur.com/QOfZ5r8.png')";
+var bkgrdSix ="url('http://i.imgur.com/Y4BHWJM.png')";
+var bkgrdSeven ="url('http://i.imgur.com/laSSeYN.png')";
+var bkgrdEight ="url('http://i.imgur.com/HaYuGQi.png')";
 
 
-// scrolling to section on click btn
+backgroundArray = [bkgrdOne, bkgrdTwo, bkgrdThree, bkgrdFour, bkgrdFive, bkgrdSix, bkgrdSeven, bkgrdEight];
+
 $("a[href='#top']").click(function() { 
   
   $("html, body").animate({ scrollTop: 0 }, "fast"); return false; });
@@ -28,27 +34,16 @@ $('a[href$="about"]').click(function() {
          scrollTop: $("#about").offset().top   }, 500);
  });
 
+$("div").addClass(".bg6");
+// $("body").css("background-image", "url(http://i.imgur.com/VW2DYbL.png)");
 
+}
 
-// $(window).scroll(function () {
-//     hideVid();
-//     if($(document).scrollTop() == 0) showVid();
-//   });
-});
-
-
-
-
-// // video FX
-// function hideVid() {
-// $("#bgvid").css("z-index","-100");
-// $(".jumbotron").show();
+function backgroundGif (img) {
+  $('body').css("background-image", img);
+}
 
 
 
-// } 
-// function showVid() {
-//   $("#bgvid").css("z-index","100");
-//   $(".begin") .css("z-index","200")
-// }
+
 
