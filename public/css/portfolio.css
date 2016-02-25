@@ -1,6 +1,5 @@
 body {
-  background-image: url(http://i.imgur.com/UZKEjzG.png);
-  z-index: -25
+   transition: background 3s linear;
   } 
 
 p>a,
@@ -152,3 +151,29 @@ hr.star-light:after {
     border-radius: 10px;
 }
 
+
+.bg1 {
+  background-image: url(http://i.imgur.com/NNoFNWf.png);
+}
+
+.bg2 {
+  background-image: url(http://i.imgur.com/VW2DYbL.png);
+}
+.bg3 {
+  background-image: url(http://i.imgur.com/UZKEjzG.png);
+}
+.bg4 {
+  background-image: url(http://i.imgur.com/6EhAM7G.png);
+}
+.bg5 {
+  background-image: url(http://i.imgur.com/QOfZ5r8.png);
+}
+.bg6 {
+  background-image: url(http://i.imgur.com/Y4BHWJM.png);
+}
+.bg7 {
+  background-image: url(http://i.imgur.com/laSSeYN.png);
+}
+.bg8 {
+  background-image: url(http://i.imgur.com/HaYuGQi.png);
+}
