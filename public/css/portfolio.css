@@ -9,6 +9,10 @@ p>a:hover{
 img.center-block{
   width: 60%;
 }
+img.img-responsives {
+  width: 250px;
+  height:200px;
+}
 
 i {
 

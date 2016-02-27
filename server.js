@@ -14,6 +14,7 @@ app.use(
 
 app.use("/js", express.static("public/js"));
 app.use("/css", express.static("public/css"));
+app.use("/imgs", express.static("public/imgs"))
 
 app.get("/", function (req, res) {
   res.sendFile(process.cwd() + "/views/home.html")
@@ -25,6 +26,7 @@ app.get("/portfolio/:projectName", function (req ,res) {
   res.sendFile(process.cwd() + stringPath);
   console.log(stringPath);
 });
+
 
 app.listen(PORT, function () {
   console.log("Listen on port %s", PORT);
