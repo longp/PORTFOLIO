@@ -9,9 +9,13 @@ p>a:hover{
 img.center-block{
   width: 60%;
 }
-img.img-responsives {
-  width: 250px;
-  height:200px;
+img.img-responsive{
+  margin: 0 auto;
+}
+img.portfolio_img {
+  width: 210px;
+  height: 200px;
+
 }
 
 i {
