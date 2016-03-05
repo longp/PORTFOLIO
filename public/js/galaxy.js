@@ -1,3 +1,21 @@
+
+
+//added width and height attr to canvas with prop ratio
+$('canvas#background').attr({
+	"width": 600,
+	"height": 360});
+$('canvas#ship').attr({
+	"width": 600,
+	"height": 360});
+$('canvas#main').attr({
+	"width": 600,
+	"height": 360});
+
+
+
+
+
+// game oobbj
 var game = new Game();
 function init() {
 	if(game.init()) {
